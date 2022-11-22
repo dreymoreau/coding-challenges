@@ -26,7 +26,8 @@ function sum(numbers) {
     let sumOfNums = 0;
 
     for(let i = 0; i < numbers.length; i++) {
-            sumOfNums += numbers[i]
+            sumOfNums += [numbers.length - 1]
     }
     return sumOfNums;
 }
+
