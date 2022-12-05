@@ -12,19 +12,7 @@
 // map through by creating an arrow function and multiply each element by itself (square)
 // use join to join the elements back to a string
 
-
 function squareDigits(num){
-    
-    return Number( 
-                num.toString() // num === "3212"
-
-                .split('') // ["3", "2", "1", "2"]
-
-                .map(elem => elem * elem)
-                // Now we have [9, 4, 1, 4]
-
-                .join('') // "9414"
-            );
+    return Number(num.toString().split('').map(elem => elem * elem).join(''));
 }
-
 console.log(squareDigits(3212))
