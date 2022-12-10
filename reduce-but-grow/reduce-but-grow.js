@@ -1,7 +1,7 @@
 // Given a non-empty array of integers, return the result of multiplying the values together in order. Example:
 
 // [1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
-// create a sum variable
+// create a sum variable and assign it the number 1
 // loop through the array by length method
 // multiply each numbers index by the following number
 // return the total number
