@@ -17,3 +17,12 @@ function noOdds(values){
 }
 
 console.log(noOdds([0,1,2,3])) // output => [0,2]
+
+// ***refactored version***
+
+function noOdds(values){
+    return values.filter(x => x % 2 ===0)
+  }
+
+  
+console.log(noOdds([0,1,2,3])) // output => [0,2]
