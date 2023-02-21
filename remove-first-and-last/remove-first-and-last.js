@@ -14,3 +14,11 @@ function removeChar(str){
 }
 
 console.log(removeChar('hello'))
+
+// *** alternate way**
+function removeChar(str){
+    return str.slice(1, -1)
+}
+
+
+console.log(removeChar('hello'))
