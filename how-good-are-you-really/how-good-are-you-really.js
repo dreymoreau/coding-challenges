@@ -10,8 +10,7 @@
 
 // declare sum variable
 // loop through classPoints array and add it all to sum variable
-// divide the sum variable by classPoints.length
-// declare classAverage variable equals sum / classPoints.length
+// assign sum / classPoints.length to classAverage variable
 // check if my average is higher than the class average, if so return true
 // return false
 function betterThanAverage(classPoints, yourPoints) {
