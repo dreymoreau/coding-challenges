@@ -2,4 +2,4 @@
 
 Daily coding challenges and my profile linked!
 
-![alt tag](https://github.com/dreymoreau/coding-challenges/blob/main/codewars-readme.png)
+![alt tag](https://github.com/dreymoreau/coding-challenges/blob/main/5kyu-github-repo.png)
