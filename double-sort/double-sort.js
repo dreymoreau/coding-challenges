@@ -28,5 +28,5 @@ function dbSort(a){
     return nums.concat(words)
    }
    
-   console.log(dbSort([6, 2, 3, 4, 5])) // output =>
+   console.log(dbSort([6, 2, 3, 4, 5])) // output => [ 2, 3, 4, 5, 6 ]
    console.log(dbSort(["Banana", "Orange", "Apple", "Mango", 0, 2, 2])) // output => [0,2,2,"Apple","Banana","Mango","Orange"]
