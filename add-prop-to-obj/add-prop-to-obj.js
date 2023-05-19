@@ -24,7 +24,7 @@ function addProp(arr){
     
     return arr
 }
-console.log(addProp(questions)) // let questions = [
+console.log(addProp(questions)) // output => let questions = [
 //     {
 //     question: "What's the currency of the USA?",
 //     choices: ["US dollar", "Ruble", "Horses", "Gold"],
