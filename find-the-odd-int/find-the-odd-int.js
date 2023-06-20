@@ -26,5 +26,19 @@ function findOdd(A) {
     }
    
    }
+
+   //other solution
+
+   function findOdd(A) {
+    let obj = {}
+    for(let i = 0; i < A.length; i++){
+        obj[A[i]] = obj[A[i]] ? obj[A[i]] + 1 : 1
+    }
+
+    let num = Object.entries(obj)
+    let odd = num.filter(x => x[1] % 2 !== 0)
+    return Number(odd[0][0])
+
+   }
    console.log(findOdd([20,1,1,2,2,3,3,5,5,4,20,4,5])) // output => 5 
    console.log(findOdd([0,1,0,1,0])) // output => 0
