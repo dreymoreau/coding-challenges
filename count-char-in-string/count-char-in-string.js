@@ -4,10 +4,11 @@
 
 // declare obj variable to empty obj
 // string.split('')
+// check if string.length == 0, return an empty object
 // for loop through
 // use ternary operator with obj[string[i]] to either be + 1 or is 1
 // return obj
-// check if string.length == 0, return an empty object
+
 
 function count(string) {
     let obj = {}
