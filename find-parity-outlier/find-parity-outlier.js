@@ -31,4 +31,18 @@ function findOutlier(integers){
     }
   }
   
+
+  // other solution
+
+  function findOutlier(integers){
+    let even = integers.filter(x => x % 2 == 0)
+    let odd = integers.filter(y => y % 2 !== 0)
+    
+    if(odd.length == 1) {
+      return Number(odd.join(''))
+    } else {
+      return Number(even.join(''))
+    }
+  }
+  
   console.log(findOutlier([2, 4, 0, 100, 4, 11, 2602, 36])) // 11
