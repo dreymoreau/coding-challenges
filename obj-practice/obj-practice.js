@@ -1,3 +1,5 @@
+// practice 1
+
 // how to sort this for >= 60 and sort in descending order
 
 // try in a code editor before looking at answer (((pssst for in loop)))
@@ -20,6 +22,7 @@ return onlySixty.sort((a,b) => obj[b] - obj[a])
 
 console.log(sortSixty({"Java" : 10, "Python" : 65, "Ruby" : 80}))
 
+// practice 2
 
 //  how to turn this 
 // let users = [
@@ -36,8 +39,8 @@ console.log(sortSixty({"Java" : 10, "Python" : 65, "Ruby" : 80}))
 //     pete: {id: 'pete', name: "Pete Peterson", age: 31},
 //   }
 
-//   how to have it print out 'chief officer: Dan' using a for in loop?
-// how to have it print out 'Lily: Computer Engineering' using a for in loop?
+
+// practice 3
 
 // let spaceship = {
 //     crew: {
@@ -62,3 +65,21 @@ console.log(sortSixty({"Java" : 10, "Python" : 65, "Ruby" : 80}))
 //         }
 //     }
 // }; 
+
+//   how to have it print out 'chief officer: Dan' using a for in loop?
+
+// declare for in loop using the spaceship object but going into the second object by using dot syntax with crew
+// console.log using template string the key which is the variable being used to iterate through the obj and then a space with spaceship.crew[key].name to put the name after the persons title
+
+for(let key in spaceship.crew){
+    console.log(`${key}: ${spaceship.crew[key].name}`)
+ }
+
+ // how to have it print out 'Lily: Computer Engineering' using a for in loop?
+
+ // declare for in loop using the spaceship object but going into the second object by using dot syntax with crew again
+// console.log using template string the spaceship.crew[key].name to output the persons name at the start and then a space with spaceship.crew[key].degree to put the persons degree after the name being separated with a colon
+
+ for(let key in spaceship.crew){
+    console.log(`${spaceship.crew[key].name}: ${spaceship.crew[key].degree}`)
+ }
