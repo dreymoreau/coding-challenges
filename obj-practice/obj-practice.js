@@ -25,13 +25,25 @@ console.log(sortSixty({"Java" : 10, "Python" : 65, "Ruby" : 80}))
 // practice 2
 
 //  how to turn this 
-// let users = [
-//     {id: 'john', name: "John Smith", age: 20},
-//     {id: 'ann', name: "Ann Smith", age: 24},
-//     {id: 'pete', name: "Pete Peterson", age: 31},
-//   ];
+let users = [
+    {id: 'john', name: "John Smith", age: 20},
+    {id: 'ann', name: "Ann Smith", age: 24},
+    {id: 'pete', name: "Pete Peterson", age: 31},
+  ];
 
+  // declare result variable to an empty object
+  // use forEach loop to loop through and declare item variable inside the loop
+  // use the empty object result to then assign the id value by using item.id to put the name of the user in front of the entire object, then assign it to item which is holding each object
+  // return result
+  function change(arr){
+   let result = {}
+   arr.forEach(item => result[item.id] = item)
+   return result
+  }
+
+  console.log(change(users))
 // to this?
+
 
 // usersById = {
 //     john: {id: 'john', name: "John Smith", age: 20},
