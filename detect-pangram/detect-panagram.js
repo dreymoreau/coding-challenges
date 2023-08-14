@@ -12,4 +12,7 @@ function isPangram(string) {
   return alphabet.every((x) => string.includes(x));
 }
 
+
+
+
 console.log(isPangram("The quick brown fox jumps over the lazy dog.")); // true
