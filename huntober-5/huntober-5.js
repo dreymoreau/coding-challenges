@@ -14,6 +14,12 @@ function solve(arr){
     return total
 
 }
+
+// alternate solution
+function solve(arr) {
+    return arr.reduce((prev, curr) => prev *= new Set(curr).size, 1);
+  };
+
 console.log(solve([[1,2],[4],[5,6]]),4)
 console.log(solve([[1,2],[4,4],[5,6,6]]),4)
 console.log(solve([[1,2],[3,4],[5,6]]),8)
