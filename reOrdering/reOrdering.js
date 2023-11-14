@@ -11,6 +11,7 @@
 // else push rest of the elements to nonCapWord array
 // declare finalStr and assign it to capWord using the concat method passing in nonCapWord
 // return finalStr and use join method with a space in between parentheses to join the array back into a string 
+
 function reOrdering(text){
     let capWord = []
     let nonCapWord = []
