@@ -6,6 +6,14 @@
 // " --> &quot;
 // & --> &amp;
 
+// declare str variable assigned to an empty string
+// for loop through
+// check if formData == "<", add to str variable "&lt;"
+// check if formData == ">", add to str variable "&gt;"
+// check if formData == '"', add to str variable "&quot;"
+// check if formData == "&", add to str variable "&amp;"
+// else add the formData parameter to str
+
 function htmlspecialchars(formData) {
     let str = ''
     
