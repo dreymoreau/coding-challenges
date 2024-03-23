@@ -18,10 +18,14 @@ function filter_list(l) {
   }
   console.log(filter_list([1,2,'a','b'])) // => output [1, 2]
 
-/// filter method way
+// came back to this problem, this is the way i thought about solving this time
 
 function filter_list(l) {
-    return l.filter(x => typeof x == 'number')
-  }
-
-  console.log(filter_list([1,2,'a','b'])) // => output [1, 2]
+  let arr = []
+    l.filter((num) => {
+    if(typeof num == "number"){
+      arr.push(num)
+    }
+  })
+  return arr
+}
